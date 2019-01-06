@@ -1,0 +1,16 @@
+PODS:
+  - JAQDiceView (2.0.2)
+
+DEPENDENCIES:
+  - JAQDiceView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JAQDiceView
+
+SPEC CHECKSUMS:
+  JAQDiceView: 6c4802567c9405828ac633d703fdbf6fb3094914
+
+PODFILE CHECKSUM: c0d28a9e924a5be4aa27af5196148f9e57b3935c
+
+COCOAPODS: 1.5.3

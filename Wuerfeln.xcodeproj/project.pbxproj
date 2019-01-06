@@ -7,21 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1158E09D21E18B0F00B0FAC1 /* OwnDiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1158E09C21E18B0F00B0FAC1 /* OwnDiceViewController.swift */; };
+		1161F32121D99BF7008355D5 /* JAQDiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1161F31D21D99BF7008355D5 /* JAQDiceView.m */; };
+		1161F32221D99BF7008355D5 /* SCNNode+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1161F31F21D99BF7008355D5 /* SCNNode+Utils.m */; };
+		1161F32621D99C6D008355D5 /* Dices.dae in Resources */ = {isa = PBXBuildFile; fileRef = 1161F32421D99C6D008355D5 /* Dices.dae */; };
+		1161F32721D99C6D008355D5 /* woodTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 1161F32521D99C6D008355D5 /* woodTile.png */; };
 		118F0F1121D0528800784533 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118F0F1021D0528800784533 /* AppDelegate.swift */; };
 		118F0F1321D0528800784533 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118F0F1221D0528800784533 /* ViewController.swift */; };
 		118F0F1621D0528800784533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118F0F1421D0528800784533 /* Main.storyboard */; };
 		118F0F1821D0528A00784533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118F0F1721D0528A00784533 /* Assets.xcassets */; };
 		118F0F1B21D0528A00784533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118F0F1921D0528A00784533 /* LaunchScreen.storyboard */; };
+		118F0F2421D052F200784533 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118F0F2321D052F200784533 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		118F0F0D21D0528800784533 /* remoteButtonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = remoteButtonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1158E09C21E18B0F00B0FAC1 /* OwnDiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnDiceViewController.swift; sourceTree = "<group>"; };
+		1161F31B21D99BDE008355D5 /* Wuerfeln-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wuerfeln-Bridging-Header.h"; sourceTree = "<group>"; };
+		1161F31D21D99BF7008355D5 /* JAQDiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAQDiceView.m; sourceTree = "<group>"; };
+		1161F31E21D99BF7008355D5 /* JAQDiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAQDiceView.h; sourceTree = "<group>"; };
+		1161F31F21D99BF7008355D5 /* SCNNode+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SCNNode+Utils.m"; sourceTree = "<group>"; };
+		1161F32021D99BF7008355D5 /* SCNNode+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCNNode+Utils.h"; sourceTree = "<group>"; };
+		1161F32421D99C6D008355D5 /* Dices.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Dices.dae; sourceTree = "<group>"; };
+		1161F32521D99C6D008355D5 /* woodTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = woodTile.png; sourceTree = "<group>"; };
+		118F0F0D21D0528800784533 /* Wuerfeln.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wuerfeln.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		118F0F1021D0528800784533 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		118F0F1221D0528800784533 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		118F0F1521D0528800784533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		118F0F1721D0528A00784533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		118F0F1A21D0528A00784533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		118F0F1C21D0528A00784533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118F0F2321D052F200784533 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,24 +44,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				118F0F2421D052F200784533 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1161F32321D99BFB008355D5 /* DiceView */ = {
+			isa = PBXGroup;
+			children = (
+				1161F31E21D99BF7008355D5 /* JAQDiceView.h */,
+				1161F31D21D99BF7008355D5 /* JAQDiceView.m */,
+				1161F32021D99BF7008355D5 /* SCNNode+Utils.h */,
+				1161F31F21D99BF7008355D5 /* SCNNode+Utils.m */,
+			);
+			path = DiceView;
+			sourceTree = "<group>";
+		};
 		118F0F0421D0528800784533 = {
 			isa = PBXGroup;
 			children = (
 				118F0F0F21D0528800784533 /* remoteButtonTest */,
 				118F0F0E21D0528800784533 /* Products */,
+				118F0F2221D052F200784533 /* Frameworks */,
+				1161F31B21D99BDE008355D5 /* Wuerfeln-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
 		118F0F0E21D0528800784533 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				118F0F0D21D0528800784533 /* remoteButtonTest.app */,
+				118F0F0D21D0528800784533 /* Wuerfeln.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,22 +83,34 @@
 		118F0F0F21D0528800784533 /* remoteButtonTest */ = {
 			isa = PBXGroup;
 			children = (
+				1161F32321D99BFB008355D5 /* DiceView */,
 				118F0F1021D0528800784533 /* AppDelegate.swift */,
 				118F0F1221D0528800784533 /* ViewController.swift */,
+				1158E09C21E18B0F00B0FAC1 /* OwnDiceViewController.swift */,
 				118F0F1421D0528800784533 /* Main.storyboard */,
 				118F0F1721D0528A00784533 /* Assets.xcassets */,
 				118F0F1921D0528A00784533 /* LaunchScreen.storyboard */,
 				118F0F1C21D0528A00784533 /* Info.plist */,
+				1161F32421D99C6D008355D5 /* Dices.dae */,
+				1161F32521D99C6D008355D5 /* woodTile.png */,
 			);
 			path = remoteButtonTest;
+			sourceTree = "<group>";
+		};
+		118F0F2221D052F200784533 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				118F0F2321D052F200784533 /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		118F0F0C21D0528800784533 /* remoteButtonTest */ = {
+		118F0F0C21D0528800784533 /* Wuerfeln */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 118F0F1F21D0528A00784533 /* Build configuration list for PBXNativeTarget "remoteButtonTest" */;
+			buildConfigurationList = 118F0F1F21D0528A00784533 /* Build configuration list for PBXNativeTarget "Wuerfeln" */;
 			buildPhases = (
 				118F0F0921D0528800784533 /* Sources */,
 				118F0F0A21D0528800784533 /* Frameworks */,
@@ -79,9 +120,9 @@
 			);
 			dependencies = (
 			);
-			name = remoteButtonTest;
+			name = Wuerfeln;
 			productName = remoteButtonTest;
-			productReference = 118F0F0D21D0528800784533 /* remoteButtonTest.app */;
+			productReference = 118F0F0D21D0528800784533 /* Wuerfeln.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,10 +137,16 @@
 				TargetAttributes = {
 					118F0F0C21D0528800784533 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
-			buildConfigurationList = 118F0F0821D0528800784533 /* Build configuration list for PBXProject "remoteButtonTest" */;
+			buildConfigurationList = 118F0F0821D0528800784533 /* Build configuration list for PBXProject "Wuerfeln" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				118F0F0C21D0528800784533 /* remoteButtonTest */,
+				118F0F0C21D0528800784533 /* Wuerfeln */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +170,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				118F0F1B21D0528A00784533 /* LaunchScreen.storyboard in Resources */,
+				1161F32721D99C6D008355D5 /* woodTile.png in Resources */,
+				1161F32621D99C6D008355D5 /* Dices.dae in Resources */,
 				118F0F1821D0528A00784533 /* Assets.xcassets in Resources */,
 				118F0F1621D0528800784533 /* Main.storyboard in Resources */,
 			);
@@ -135,7 +184,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1161F32221D99BF7008355D5 /* SCNNode+Utils.m in Sources */,
+				1158E09D21E18B0F00B0FAC1 /* OwnDiceViewController.swift in Sources */,
 				118F0F1321D0528800784533 /* ViewController.swift in Sources */,
+				1161F32121D99BF7008355D5 /* JAQDiceView.m in Sources */,
 				118F0F1121D0528800784533 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AW9CBV6SY7;
 				INFOPLIST_FILE = remoteButtonTest/Info.plist;
@@ -291,6 +344,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.APPenzeller.remoteButtonTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wuerfeln-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AW9CBV6SY7;
 				INFOPLIST_FILE = remoteButtonTest/Info.plist;
@@ -309,6 +365,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.APPenzeller.remoteButtonTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wuerfeln-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,7 +374,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		118F0F0821D0528800784533 /* Build configuration list for PBXProject "remoteButtonTest" */ = {
+		118F0F0821D0528800784533 /* Build configuration list for PBXProject "Wuerfeln" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				118F0F1D21D0528A00784533 /* Debug */,
@@ -326,7 +383,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		118F0F1F21D0528A00784533 /* Build configuration list for PBXNativeTarget "remoteButtonTest" */ = {
+		118F0F1F21D0528A00784533 /* Build configuration list for PBXNativeTarget "Wuerfeln" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				118F0F2021D0528A00784533 /* Debug */,
