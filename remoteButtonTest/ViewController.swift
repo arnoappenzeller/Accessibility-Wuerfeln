@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         return true
     }
     
+    var lastFireDate:Date?
+    
     
     @IBOutlet weak var diceEffectView: UIVisualEffectView!
     @IBOutlet weak var diceView: JAQDiceView!
@@ -34,8 +36,7 @@ class ViewController: UIViewController {
         
         diceView.delegate = self
         
-        try! AVAudioSession.sharedInstance().setActive(true, options: [])
-        try! AVAudioSession.sharedInstance().setCategory(.ambient, mode: .default, options: [])
+        
         NotificationCenter.default.addObserver(self, selector: #selector(volumeChanged(notification:)),
                                                name: NSNotification.Name(rawValue: "AVSystemController_SystemVolumeDidChangeNotification"),
                                                object: nil)
@@ -51,6 +52,8 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         self.becomeFirstResponder()
+        try! AVAudioSession.sharedInstance().setActive(true, options: [])
+        try! AVAudioSession.sharedInstance().setCategory(.ambient, mode: .default, options: [])
         
         //diceView.repositionDices()
         
@@ -70,10 +73,24 @@ class ViewController: UIViewController {
         if let userInfo = notification.userInfo {
             if let volumeChangeType = userInfo["AVSystemController_AudioVolumeChangeReasonNotificationParameter"] as? String {
                 if volumeChangeType == "ExplicitVolumeChange" {
-                    if self.isViewLoaded && (self.view.window != nil) {
+                    
+                    let canFireAgain:Bool
+                    if let lastFireDate = lastFireDate{
+                        if Date().timeIntervalSince(lastFireDate) > 1{
+                            canFireAgain = true
+                        }
+                        else{
+                            canFireAgain = false
+                        }
+                    }
+                    else{
+                        //no default value so true
+                        canFireAgain = true
+                    }
+                    if self.isViewLoaded && (self.view.window != nil) && UIApplication.shared.applicationState == .active && canFireAgain {
                         // viewController is visible
                         diceView.rollTheDice(self)
-                        print("roll the dice")
+                        lastFireDate = Date()
                     }
                 }
             }

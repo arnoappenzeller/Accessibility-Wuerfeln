@@ -49,6 +49,12 @@ class OwnDiceViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        try! AVAudioSession.sharedInstance().setActive(true, options: [])
+        try! AVAudioSession.sharedInstance().setCategory(.ambient, mode: .default, options: [])
+    }
+    
     @IBAction func backButtonPressed(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
