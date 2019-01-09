@@ -1,4 +1,5 @@
 # Wuerfeln - a dice app for iPad controled with an accessibility button
+![iPad with Button](ipadwithbutton.jpg)
 ## About
 This is an app that shows a virtual dice that can be controled by a volumne up press on a headphone remote.
 
