@@ -1,5 +1,5 @@
 # Wuerfeln - a dice app for iPad controled with an accessibility button
-##About
+## About
 This is an app that shows a virtual dice that can be controled by a volumne up press on a headphone remote.
 
 The app was created as a little holiday project for a little friend of mine who has an iPad with an accessibilty button.
@@ -10,5 +10,5 @@ Learn more about the project in a blog post (here)[https://arno.app/2019-09-01-h
 *Sorry for the German strings and name - it was created for a German kid so I didn't bothered too long ;-)*
 
 
-##Acknowledges
+## Acknowledges
 The app uses [JAQDiceView](https://github.com/JavierQuerol/JAQDiceView) as 3D scene for the dices. It was included directly in the code and modified a bit to work outside of a framwork.
